@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
-int edad(){
+int main(){
     int edad;
 cout<< "ingrese su edad: ";
 cin>> edad;
-cout<< "su edad es: "<< edad;
+cout<< "su edad es: "<< edad << endl;
     return 0;
 }
