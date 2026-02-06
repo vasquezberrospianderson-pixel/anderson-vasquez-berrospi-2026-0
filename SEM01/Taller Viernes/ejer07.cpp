@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 43a4b5cb5d7eaa716b98044ddcf150a6649a7ca0
+>>>>>>> 0cee18c647a0795834f972042e2173de35495f79
 #include <stdio.h>
 int main() {
     int a, b, c, r, p, S;
@@ -19,3 +26,30 @@ int main() {
     printf("area = %d\n", S);
     return 0;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main(){
+    int a,b,c,r,p,S;
+    a = 9;
+    b = 12;
+    c = 15;
+    r = 6;
+    p = (a+b+c)/2;
+    S = r*p;
+    cout<<"lado1 = "<<a<<endl;
+    cout<<"lado2 = "<<b<<endl;
+    cout<<"lado3 = "<<c<<endl;
+    cout<<"radio = "<<r<<endl;
+    cout<<"semi perimetro = "<<p<<endl;
+    cout<<"area = "<<S<<endl;
+    return 0;
+}
+>>>>>>> 2f0bb2aa90c25e5f2157aa89d3c707ec8bb75c92
+>>>>>>> 43a4b5cb5d7eaa716b98044ddcf150a6649a7ca0
+>>>>>>> 0cee18c647a0795834f972042e2173de35495f79
