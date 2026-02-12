@@ -17,3 +17,4 @@ int main() {
     printf("area = %.2f\n", S);
     return 0;
 }
+
