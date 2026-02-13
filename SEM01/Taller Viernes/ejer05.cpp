@@ -20,5 +20,3 @@ int main() {
     printf("Perimetro = %.2f\n", P);
     return 0;
 }
-
-
