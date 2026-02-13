@@ -1,4 +1,5 @@
 #include <stdio.h>
+using namespace std;
 int main() {
     float a, b, c, h, A, P;
     printf("Ingrese el lado 1: ");
@@ -19,3 +20,5 @@ int main() {
     printf("Perimetro = %.2f\n", P);
     return 0;
 }
+
+
