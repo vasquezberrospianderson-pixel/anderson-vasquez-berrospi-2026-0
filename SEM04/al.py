@@ -1,24 +1,25 @@
-def diferencia(arr):
-    mayor = arr[0]
-    menor = arr[0]
+import turtle
+import time
 
-    for x in arr:
-        if x > mayor:
-            mayor = x
-        if x < menor:
-            menor = x
+pantalla = turtle.Screen()
+pantalla.bgcolor("black")
 
-    return mayor - menor
+flor = turtle.Turtle()
+flor.speed(0)
+flor.color("pink")
+flor.width(2)
 
-a = [6, 2, 9, 1, 7]
-print("Diferencia:", diferencia(a.copy()))
+# Función para dibujar un pétalo
+def petalo():
+    for i in range(2):
+        flor.circle(100, 60)
+        flor.left(120)
 
-
-
-
-
-
-
-
-
-
+# Animación de la flor girando
+while True:
+    flor.clear()
+    for i in range(6):
+        petalo()
+        flor.left(60)
+    flor.right(5)   # movimiento (rotación)
+    time.sleep(0.05)

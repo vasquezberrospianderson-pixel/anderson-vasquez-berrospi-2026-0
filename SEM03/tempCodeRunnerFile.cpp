@@ -3,16 +3,15 @@
 using namespace std;
 
 int main() {
-    int a, b, c;
-    cout << "Ingrese tres numeros: ";
-    cin >> a >> b >> c;
+    int a, b;
+    cout<<"ingrese su nombre: "<<endl;
+    cin>>a;
+    cout<<"ingrese su edad: "<<endl;
+    cin>>b;
 
-    if (a >= b && a >= c)
-        cout << "El mayor es: " << a;
-    else if (b >= a && b >= c)
-        cout << "El mayor es: " << b;
-    else
-        cout << "El mayor es: " << c;
+if (b>0){
+    cout<<"para mi tu eres especial";
+}
 
     return 0;
 }

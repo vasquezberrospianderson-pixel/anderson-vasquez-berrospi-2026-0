@@ -319,7 +319,7 @@ void cancelarUltimoPedido() {
 // Función: calcularTotalVentas
 // Propósito:
 //     Calcular el monto total de ventas
-//     considerando únicamente los pedidos activos.
+//     considerando únicame564zcxnte los pedidos activos.
 // Retorna:
 //     Un valor float correspondiente al total
 //     acumulado de ventas.
